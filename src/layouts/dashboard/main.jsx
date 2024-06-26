@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import Recorder3 from 'src/components/Recorder';
 
 import Box from '@mui/material/Box';
 
@@ -31,6 +32,7 @@ export default function Main({ children, sx, ...other }) {
       }}
       {...other}
     >
+      <Recorder3 /> 
       {children}
     </Box>
   );
